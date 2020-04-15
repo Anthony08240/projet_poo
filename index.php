@@ -1,10 +1,14 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jeux poo</title>
-</head>
-<body>
-    <p>coucou tout le monde</p>
-</body>
-</html>
+<?php
+
+require_once('class.php');
+
+$perso1 = new Personnage('Pikachu', '15');
+$perso1->perso();
+$perso1->incrementepvPerso();
+
+
+$perso2 = new Personnage('Salameche', '12');
+$perso2->perso();
+$perso2->incrementepvPerso();
+
+?>
